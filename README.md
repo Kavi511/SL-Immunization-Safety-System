@@ -527,5 +527,4 @@ For support and questions:
 
 **Built with ❤️ for Sri Lankan Healthcare System**
 
-*Ensuring vaccine safety through technology and data-driven insights.*#   S L - I m m u n i z a t i o n - S a f e t y - S y s t e m  
- 
+*Ensuring vaccine safety through technology and data-driven insights.*#
