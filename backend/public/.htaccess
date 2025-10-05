@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # When running under an Apache Alias like /slvsn, set the base
+    # so relative rewrites resolve correctly
+    RewriteBase /slvsn/
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Serve existing files/directories directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Send everything else to public/index.php (Laravel front controller)
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    <IfModule mod_alias.c>
+        RedirectMatch 307 ^/$ /index.php
+    </IfModule>
+</IfModule>
+
+
