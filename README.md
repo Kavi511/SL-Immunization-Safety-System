@@ -525,6 +525,6 @@ For support and questions:
 
 ---
 
-**Built with ❤️ for Sri Lankan Healthcare System**
+**Crafted with care for Sri Lanka's Healthcare System**
 
 *Ensuring vaccine safety through technology and data-driven insights.*#
