@@ -337,7 +337,7 @@ php artisan migrate:fresh --seed
 2. Get your API key
 3. Add to `.env`: `NEWS_API_KEY=your_api_key_here`
 
-### Power BI Integration
+## 📊 Power BI Integration
 The dashboard integrates with Power BI for advanced analytics. Update the iframe source in `resources/views/dashboard.blade.php` with your Power BI report URL.
 
 ### Mail Configuration
