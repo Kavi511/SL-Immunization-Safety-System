@@ -1,4 +1,4 @@
-# 💉 Vaccine Monitoring System (SLVSN)
+# 💉 *Sri Lankan Vaccine Safety Network* (SLVSN)
 
 [![Laravel](https://img.shields.io/badge/Laravel-11.31-red.svg)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
